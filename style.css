@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 header{
+    display: flex;
+    align-items: center;
     margin-top: -12px;
     margin-left: -12px;
     margin-right: -12px;
@@ -8,14 +10,23 @@ header{
     padding: 10px;
     background: #064635;
     font-family: 'Ubuntu', sans-serif;
+    color:#F5EEDC;
 }
 body{
     background:#C3B091;
-
 }
 
+#logobuap{
+    width: 5%;
+    height: 5%;
+}
 
+#listaheader li{    
+    padding: 25px;
+    float:right;
+    display: inline;
+}
 h1{
-   margin-left: 10px;
-    color:#F5EEDC;
+   margin-left: 15px;
+   margin-right: 50px;
 }
