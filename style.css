@@ -117,7 +117,7 @@ h1{
 
 .container{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-column-gap:10px;
   margin: 20px;
   padding: 10px 50px 50px 50px;
