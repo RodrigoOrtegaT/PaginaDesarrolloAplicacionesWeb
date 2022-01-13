@@ -77,6 +77,8 @@ h1{
 
   ul {
     list-style: none;
+    padding-inline-start: 0px;
+
   }
 
   a {
@@ -89,12 +91,11 @@ h1{
     margin: 20px 0;
   }
   
-  
+
 .rectext{
     margin-top: 25px;
     margin-left:50px;
     margin-right:50px;
-    margin-bottom: 500px;
     border: 5px;
     border-style: solid;
     border-color:#6998AB;
@@ -103,7 +104,7 @@ h1{
 }
 
 .textInt{
-  margin: 12px;
+  margin: 1px;
   font-size: large;
   margin-bottom: 0px;
 }
@@ -114,6 +115,58 @@ h1{
   text-align: center;
 }
 
-#Equipo{
-  color: #1a1c1d;
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap:10px;
+  margin: 20px;
+  padding: 10px 50px 50px 50px;
+
 }
+
+.alumn{
+  border: 2px;
+  border-style: solid;
+  border-color: #343e61f3;
+  border-radius: 4px;
+  background: #7a89bdf3;
+ 
+}
+
+#Equipo{
+  margin: 20px;
+}
+
+.container img{
+  width: 65%;
+  height: 60%;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 4px;
+}
+
+.tabla{
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 4px;
+  margin: 0px 25px 25px 25px;
+}
+
+table{
+  border-collapse: collapse;
+
+}
+ th,td{
+   text-align: left;
+   vertical-align: top;
+   border: 2px solid black;
+   border-spacing: 0;
+   border-collapse: collapse;
+   padding: 0.3em;
+ }
+
+ th{
+   background-color: #3db3a9f5;
+ }
